@@ -11,7 +11,7 @@
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/009/269/013/original/sound-wave-digital-music-wave-equalizer-abstract-technology-background-vector.jpg);
 }
-
+/* CARD 1 */
 .card-1 {
     background: linear-gradient(#000,#ea1111); /* потсавити розмитий background color в форму катрку тощо (градієнт) */
     width: 350px;
@@ -29,8 +29,6 @@ body{
     margin: 20px 0;
     font-size: 27px;
 }
-.card-1_music {
-}
 /* CARD 2 */
 .card-2 {
     background: linear-gradient(#000, #a506ef); /* потсавити розмитий background color в форму катрку тощо (градієнт) */
@@ -40,7 +38,8 @@ body{
     padding-top: 30px; /* внутрішні відступи */
     border-radius: 20px;
     margin-left: 50px;
-    margin-top: 300px;
+    margin-top: 150px;
+    margin-bottom: 20px;
 }
 .card-2_img {
     width: 200px;
@@ -50,5 +49,40 @@ body{
     margin: 20px 0;
     font-size: 27px;
 }
-.card-2_music {
+/* CARD 3 */
+.card-3 {
+    background: linear-gradient(#000, #f5f7f7, #1034c4);
+    width: 350px;
+    height: 450px;
+    display: inline-block; /* щоб об'єкти стали в одну лінію */
+    padding-top: 30px; /* внутрішні відступи */
+    border-radius: 20px;
+    margin-left: 400px;
+    margin-bottom: 200px;
+}
+.card-3_img {
+    width: 200px;
+}
+.card-3_name {
+    font-family: 'Dancing Script', cursive;
+    margin: 20px 0;
+    font-size: 27px;
+}
+/* CARD 4 */
+.card-4 {
+    background: linear-gradient(#f3f3f3, #047eea);
+    width: 350px;
+    height: 450px;
+    display: inline-block; /* щоб об'єкти стали в одну лінію */
+    padding-top: 30px; /* внутрішні відступи */
+    border-radius: 20px;
+    margin-left: 50px;
+}
+.card-4_img {
+    width: 200px;
+}
+.card-4_name {
+    font-family: 'Dancing Script', cursive;
+    margin: 20px 0;
+    font-size: 27px;
 }
