@@ -11,6 +11,37 @@
 body{
     background-image: url(https://static.vecteezy.com/system/resources/previews/009/269/013/original/sound-wave-digital-music-wave-equalizer-abstract-technology-background-vector.jpg);
 }
+/* Header Start */
+.header {
+background-color: #fff;
+}
+.header_body {
+border: 1px solid #000;
+width: 1200px;
+margin: 0 auto;
+}
+.heade_logo {
+width: 100px;
+border-radius: 100px;
+}
+.header_menu {
+border: 1px solid #000;
+width: 500px;
+margin-left: 300px;
+}
+.header_menu li {
+    display: inline-block;
+    border: 1px solid #000;
+    margin: 0 50px;
+}
+
+.header_menu a {
+    color: #ea1111;
+}
+.header_button {
+
+}
+/* Main Content */
 /* CARD 1 */
 .card-1 {
     background: linear-gradient(#000,#ea1111); /* потсавити розмитий background color в форму катрку тощо (градієнт) */
@@ -85,4 +116,36 @@ body{
     font-family: 'Dancing Script', cursive;
     margin: 20px 0;
     font-size: 27px;
+}
+
+.my_video {
+    margin-top: 100px;
+}
+.video {
+margin: 0 20px;
+}
+.video_button {
+    padding: 20px 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.video_button:hover {
+    background-color: #000;
+    color: #a506ef;
+    letter-spacing: 0px;
+}
+
+.header_link-1:hover {
+
+}
+.header_link-2:hover {
+    
+}
+.header_link-3:hover {
+    
 }
