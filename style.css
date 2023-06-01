@@ -14,33 +14,82 @@ body{
 /* Header Start */
 .header {
 background-color: #fff;
+border-radius: 30px;
 }
 .header_body {
-border: 1px solid #000;
 width: 1200px;
 margin: 0 auto;
 }
 .heade_logo {
-width: 100px;
+width: 70px;
 border-radius: 100px;
+display: inline-block;
+margin: 0 0 0 80px;
 }
 .header_menu {
-border: 1px solid #000;
 width: 500px;
-margin-left: 300px;
+margin-left: 150px;
+display: inline-block;
+margin-top: 30px;
 }
 .header_menu li {
     display: inline-block;
-    border: 1px solid #000;
     margin: 0 50px;
 }
 
 .header_menu a {
+    font-family: 'Dancing Script', cursive;
     color: #ea1111;
+    font-size: 21px;
+    font-weight: 600;
+    border: 1px solid #000;
+    padding: 5px 7px;
+    border-radius: 30px;
+    border: none;
+}
+.header_menu a:hover {
+    color: #1034c4;
+    background-color: #ea1111;
+    transition: 0.5s;
 }
 .header_button {
-
+padding: 15px 30px;
+display: inline-block;
+margin-left: 150px;
+cursor: pointer;
+border-radius: 20px;
+margin-bottom: 5px;
 }
+.header_button:hover {
+color: #ea1111;
+background-color: #000;
+transition: 0.5s;
+padding: 20px 40px;
+}
+.my_video {
+    margin-top: 100px;
+}
+.video {
+    margin: 0 10px;
+    border-radius: 20px;
+}
+.video_button {
+    margin-bottom: 73px;
+    padding: 20px 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.video_button:hover {
+    background-color: #000;
+    color: #a506ef;
+    letter-spacing: 0px;
+}
+
 /* Main Content */
 /* CARD 1 */
 .card-1 {
@@ -68,8 +117,8 @@ margin-left: 300px;
     display: inline-block; /* щоб об'єкти стали в одну лінію */
     padding-top: 30px; /* внутрішні відступи */
     border-radius: 20px;
+    margin-top: 120px;
     margin-left: 50px;
-    margin-top: 150px;
     margin-bottom: 20px;
 }
 .card-2_img {
@@ -118,34 +167,23 @@ margin-left: 300px;
     font-size: 27px;
 }
 
-.my_video {
-    margin-top: 100px;
+.card-1:hover {
+    width: 375px;
+    height: 475px;
+    transition: 0.5s;
 }
-.video {
-margin: 0 20px;
+.card-2:hover {
+    width: 375px;
+    height: 475px;
+    transition: 0.5s;
 }
-.video_button {
-    padding: 20px 40px;
-    margin-left: 20px;
-    margin-top: 40px;
-    border-radius: 20px;
-    font-size: 20px;
-    letter-spacing: 3px;
-    cursor: pointer;
-    transition: 0.8s;
+.card-3:hover {
+    width: 375px;
+    height: 475px;
+    transition: 0.5s;
 }
-.video_button:hover {
-    background-color: #000;
-    color: #a506ef;
-    letter-spacing: 0px;
-}
-
-.header_link-1:hover {
-
-}
-.header_link-2:hover {
-    
-}
-.header_link-3:hover {
-    
+.card-4:hover {
+    width: 375px;
+    height: 475px;
+    transition: 0.5s;
 }
